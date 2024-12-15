@@ -2,6 +2,8 @@
 
 We present a web application for visualizing parallel algorithms, focusing on matrix multiplication. By using WebSockets to connect C++ code executing OpenMP-parallelized algorithms, users can explore interactive simulations that demonstrate the performance and structure of parallel computations.
 
+[Backend repository](https://github.com/gonza224/matmul-ws-server)
+
 ## Overview
 
 - **Frontend:**  
