@@ -79,7 +79,7 @@ We present a web application for visualizing parallel algorithms, focusing on ma
 
 ### Connecting Frontend and Backend
 
-The frontend uses WebSockets to communicate with the backend server. In the frontend /.env file, ensure the 'WEBSOCKET_URL' matches the backend’s configured URL. For example, if the backend runs on `ws://localhost:9002/matmul/`:
+The frontend uses WebSockets to communicate with the backend server. In the frontend /.env file, ensure the 'VITE_WEBSOCKET_URL' matches the backend’s configured URL. For example, if the backend runs on `ws://localhost:9002/matmul/`:
 
 ```javascript
 VITE_WEBSOCKET_URL="ws://localhost:9002/matmul/";
