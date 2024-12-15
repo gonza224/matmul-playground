@@ -5,7 +5,7 @@ We present a web application for visualizing parallel algorithms, focusing on ma
 [Backend repository](https://github.com/gonza224/matmul-ws-server)
 
 ## Demo
-  The online demo can be found [here](https://matmul-playground.com)
+  The online demo can be found [here](https://matmul-playground.com/)
 
 ## Overview
 
@@ -79,8 +79,8 @@ We present a web application for visualizing parallel algorithms, focusing on ma
 
 ### Connecting Frontend and Backend
 
-The frontend uses WebSockets to communicate with the backend server. In the frontend .env file, ensure the 'WEBSOCKET_URL' matches the backend’s configured URL. For example, if the backend runs on `ws://localhost:9002`:
-[]
+The frontend uses WebSockets to communicate with the backend server. In the frontend /.env file, ensure the 'WEBSOCKET_URL' matches the backend’s configured URL. For example, if the backend runs on `ws://localhost:9002`:
+
 ```javascript
 WEBSOCKET_URL="ws://localhost:9002";
 ```
