@@ -4,6 +4,9 @@ We present a web application for visualizing parallel algorithms, focusing on ma
 
 [Backend repository](https://github.com/gonza224/matmul-ws-server)
 
+## Demo
+  The online demo can be found [here](https://matmul-playground.com)
+
 ## Overview
 
 - **Frontend:**  
