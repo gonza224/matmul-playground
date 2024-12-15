@@ -17,7 +17,7 @@ const Playground = () => {
     const oneToNMatrices = useMatrixStore((state) => state.oneToNMatrices);
 
     const { viewerRef, contentRef } = useInfiniteViewer(INITIAL_ZOOM);
-    const { sendData, onVelocityChange } = useWebSocket('ws://172.20.155.66:3000/matmul/');
+    const { sendData, onVelocityChange } = useWebSocket(import.meta.env.VITE_WEBSOCKET_URL);
 
     return (
         <div ref={viewerRef} className="viewer w-full h-screen overflow-hidden relative">
