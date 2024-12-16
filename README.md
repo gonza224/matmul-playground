@@ -21,7 +21,7 @@ We present a web application for visualizing parallel algorithms, focusing on ma
 
 ## Features
 
-- **Interactive Visualization:** Students can observe how tasks are distributed among parallel threads.
+- **Interactive Visualization:** Users can observe how tasks are distributed among parallel threads.
 - **Configurable Input Matrices:** Users can input their own matrices of any size from 1 to 50.
 - **Step-by-Step Execution:** Pause and step through the multiplication process to understand the distribution of workload and accumulation of partial results.
 - **Real-Time Feedback:** The frontend receives status updates from the backend server for each multiplication step via WebSockets.
