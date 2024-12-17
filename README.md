@@ -1,6 +1,6 @@
 # Matrix Multiplication Parallel Visualization Tool
 
-We present a web application for visualizing parallel algorithms, focusing on matrix multiplication. By using WebSockets to connect C++ code executing OpenMP-parallelized algorithms, users can explore interactive simulations that demonstrate the performance and structure of parallel computations.
+Discover a web application that visualizes sequential and parallel matrix multiplication in real-time. With OpenMP C++ code sending updates through WebSockets, you can watch parallel computations unfold and explore how work is shared among multiple threads.
 
 [Backend repository](https://github.com/gonza224/matmul-ws-server)
 
@@ -36,14 +36,14 @@ We present a web application for visualizing parallel algorithms, focusing on ma
   - **Backend:**
     - [OpenSSL](https://www.openssl.org/) (required by the WebSocket server).
     - [OpenMP](https://www.openmp.org/) (for parallel computations).
-    - [Boost](https://www.boost.org/) (components: system, thread).
+    - [Boost](https://www.boost.org/).
     - CMake will automatically fetch and build:
       - [spdlog v1.11.0](https://github.com/gabime/spdlog)
       - [nlohmann/json v3.11.3](https://github.com/nlohmann/json)
       - [Simple-WebSocket-Server](https://gitlab.com/eidheim/Simple-WebSocket-Server)
   
   - **Frontend:**
-    - Dependencies handled by npm.
+    - Node.
 
 ## Building and Running
 
