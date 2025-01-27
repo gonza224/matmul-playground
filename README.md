@@ -5,7 +5,7 @@ Discover a web application that visualizes sequential and parallel matrix multip
 [Backend repository](https://github.com/gonza224/matmul-ws-server)
 
 ## Demo
-  The online demo can be found [here](https://matrixmultiply.com/)
+  The online demo can be found [here](https://matrixmultiply.com/). (only working for clients connected through the Eduroam network)
 
 ## Overview
 
